@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="worker.AppTest" time="0.005" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/shane2/repo/personalvotingapp/worker/target/test-classes:/home/shane2/repo/personalvotingapp/worker/target/classes:/home/shane2/.m2/repository/org/json/json/20220320/json-20220320.jar:/home/shane2/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/shane2/.m2/repository/redis/clients/jedis/4.2.1/jedis-4.2.1.jar:/home/shane2/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/shane2/.m2/repository/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar:/home/shane2/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/opt/jdk-17/lib"/>
+    <property name="sun.java.command" value="/home/shane2/repo/personalvotingapp/worker/target/surefire/surefirebooter17343952567311910900.jar /home/shane2/repo/personalvotingapp/worker/target/surefire 2022-04-10T19-44-20_056-jvmRun1 surefire13317514246890249057tmp surefire_016069011913165118078tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/shane2/repo/personalvotingapp/worker/target/test-classes:/home/shane2/repo/personalvotingapp/worker/target/classes:/home/shane2/.m2/repository/org/json/json/20220320/json-20220320.jar:/home/shane2/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/shane2/.m2/repository/redis/clients/jedis/4.2.1/jedis-4.2.1.jar:/home/shane2/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/shane2/.m2/repository/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar:/home/shane2/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/shane2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/opt/jdk-17"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/shane2/repo/personalvotingapp/worker"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/shane2/repo/personalvotingapp/worker/target/surefire/surefirebooter17343952567311910900.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-86"/>
+    <property name="user.name" value="shane2"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.10.102.1-microsoft-standard-WSL2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/shane2/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="/home/shane2/repo/personalvotingapp/worker"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testApp" classname="worker.AppTest" time="0.001"/>
+</testsuite>
