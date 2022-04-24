@@ -1,1 +1,6 @@
-/home/shane2/repo/personalvotingapp/worker/src/main/java/worker/Worker.java
+/Users/shane/repo/distributedDockerTutorial/worker/src/main/java/data/schema/VoteSchema.java
+/Users/shane/repo/distributedDockerTutorial/worker/src/main/java/worker/Worker.java
+/Users/shane/repo/distributedDockerTutorial/worker/src/main/java/postgres/Databaseconnector.java
+/Users/shane/repo/distributedDockerTutorial/worker/src/main/java/data/schema/Schema.java
+/Users/shane/repo/distributedDockerTutorial/worker/src/main/java/data/Vote.java
+/Users/shane/repo/distributedDockerTutorial/worker/src/main/java/redis/RedisConnection.java

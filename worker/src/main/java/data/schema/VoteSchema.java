@@ -9,12 +9,12 @@ public class VoteSchema {
   private final String CREATE_STATEMENT = "CREATE TABLE IF NOT EXISTS votes (id VARCHAR(255) NOT NULL UNIQUE, vote VARCHAR(255) NOT NULL)";
   private final Connection conn;
 
-  // temporary. use a frameowrk for this. 
+  // temporary. use a framework for this.
   public VoteSchema(Connection conn) {
     this.conn = conn;
   }
 
-  final String TableName = "votes"; 
+  final String TableName = "votes";
 
   public void Create() throws SQLException {
     PreparedStatement st = conn.prepareStatement(CREATE_STATEMENT);

@@ -6,7 +6,7 @@ import java.sql.SQLException;
 public class Schema {
     private final Connection conn;
 
-    // temporary. use a frameowrk for this. 
+    // temporary. use a framework for this.
     public Schema(Connection conn) {
       this.conn = conn;
     }
@@ -14,7 +14,6 @@ public class Schema {
     public void CreateDatabase() throws SQLException {
         try {
             new VoteSchema(conn).Create();
-            
         } catch (SQLException e) {
             // add logger
             System.err.println("creating database failed");

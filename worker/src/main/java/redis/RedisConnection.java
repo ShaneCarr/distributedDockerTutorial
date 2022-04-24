@@ -5,7 +5,7 @@ import redis.clients.jedis.exceptions.JedisConnectionException;
 
 public class RedisConnection {
         /*
-     Connection to redis. 
+     Connection to redis.
 
     */
 
@@ -17,7 +17,7 @@ public class RedisConnection {
 
     public Jedis connectToRedis(String host) {
         Jedis conn = new Jedis(host);
-    
+
         while (true) {
           try {
             conn.keys("*");
@@ -27,11 +27,11 @@ public class RedisConnection {
             sleep(1000);
           }
         }
-    
+
         System.err.println("Connected to redis");
         return conn;
       }
-    
+
       static void sleep(long duration) {
         try {
           Thread.sleep(duration);
@@ -39,6 +39,4 @@ public class RedisConnection {
           System.exit(1);
         }
       }
-
-
 }

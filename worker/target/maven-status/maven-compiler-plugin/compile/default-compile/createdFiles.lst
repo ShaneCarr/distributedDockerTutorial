@@ -1,0 +1,6 @@
+redis/RedisConnection.class
+worker/Worker.class
+data/Vote.class
+data/schema/Schema.class
+postgres/Databaseconnector.class
+data/schema/VoteSchema.class
